@@ -329,4 +329,4 @@ if __name__ == "__main__":
         "%(asctime)s | %(levelname)8s | %(message)s"))
     logger.addHandler(log_handler)
 
-    crawel_news(args)
+    crawl_news(args)
